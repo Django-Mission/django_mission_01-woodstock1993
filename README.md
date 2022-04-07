@@ -6,7 +6,7 @@ django framework를 MVT를 사용해 로또 번호를 추출하는 프로젝트
 - git clone 뒤 가상환경으로 들어가서 python manage.py runserver로 서버 실행
 - 홈주소: local주소/lotto
 - 결과주소: local주소/lotto/result/?game=게임수
--
+
 ## 프로젝트 결과물 (화면 + 영상)
 
 ### ✅ 로또 번호 추출기 Challenge ver. 홈화면
