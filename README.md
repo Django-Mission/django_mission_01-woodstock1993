@@ -1,5 +1,5 @@
 # 로또 번호 추출기 만들기
-django framework를 MVT를 사용해 로또 번호를 추출하는 프로젝트
+<p> django framework를 MVT를 사용해 로또 번호를 추출하는 프로젝트 <p>
 
 ## 프로젝트 정보
 ### 디렉토리 구조
