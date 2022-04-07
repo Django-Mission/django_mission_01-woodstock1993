@@ -1,19 +1,21 @@
 # 로또 번호 추출기 만들기
-django framework를 MVT를 사용해 로또 번호 추출기를 만들어보아요
+django framework를 MVT를 사용해 로또 번호를 추출하는 프로젝트
 
-## ✔️ 로또 번호 추출기 Challenge ver.
+## 프로젝트 정보
+### 실행방법
+- git clone 뒤 가상환경으로 들어가서 python manage.py runserver로 서버 실행
+- 홈주소: local주소/lotto
+- 결과주소: local주소/lotto/result/?game=게임수
+-
+## 프로젝트 결과물 (화면 + 영상)
 
-<p>👉 뽑을 게임의 수를 설정하고 <b>로또 번호 추출하기</b> 버튼 클릭시, 결과 페이지로 이동</p>
-https://github.com/Django-Mission/django_mission_01-woodstock1993/blob/main/lotto1.PNG
-<br/>
+### ✅ 로또 번호 추출기 Challenge ver. 홈화면
 
-<p>👉 결과페이지에서는 랜덤으로 게임 수 만큼의 당첨번호 추출</p>
-https://github.com/Django-Mission/django_mission_01-woodstock1993/blob/main/lotto2.PNG
-<br/>
+![image](https://user-images.githubusercontent.com/67543838/162204375-3a8a9695-ccb8-47c4-a2f4-4a358af873dd.png)
 
-<p>👉 <b>돌아가기</b> 버튼 클릭시, 이전 페이지로 이동</p>
-https://github.com/Django-Mission/django_mission_01-woodstock1993/blob/main/lotto1.PNG
-<br/>
+### ✅ 로또 번호 추출기 Challenge ver. 결과화면
 
-## 시연 영상
+![image](https://user-images.githubusercontent.com/67543838/162204341-ee3c41d9-7a2d-4896-a4d2-9f3bd7cfbd78.png)
+
+### 📺  시연 영상
 ![django_mission_01](https://user-images.githubusercontent.com/67543838/160998831-29a0a1c3-d5a3-424a-9c7c-89c3c219b5aa.gif)
