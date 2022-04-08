@@ -1,3 +1,4 @@
+from typing import Type
 from django.shortcuts import render
 import random
 
@@ -17,10 +18,16 @@ def lotto_index(request):
 
 def lotto_result(request):
     lotto_number = list()
-    game = int(request.GET.get('game'))
     pull_number = [index for index in range(1, 46)]
 
+    try:
+        game = int(request.GET.get('game'))
+        print('위에', game)
+    except:
+        game = 0
+
     for _ in range(game):
+        print('실행')
         lotto_number.append(random.sample(pull_number, 6))
 
     return render(request, 'lotto_result.html', {'lotto_number': lotto_number, 'game': game})
