@@ -22,12 +22,10 @@ def lotto_result(request):
 
     try:
         game = int(request.GET.get('game'))
-        print('위에', game)
     except:
         game = 0
 
     for _ in range(game):
-        print('실행')
         lotto_number.append(random.sample(pull_number, 6))
 
     return render(request, 'lotto_result.html', {'lotto_number': lotto_number, 'game': game})
